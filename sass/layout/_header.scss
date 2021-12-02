@@ -1,0 +1,26 @@
+.header {
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+    background-color: var(--primary-white-color);
+    color: var(--primary-white-color);
+
+& .container {
+  display: flex;
+  align-items: center;
+}
+}
+.second__header {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--second-main-color);
+  text-align: center;
+  margin-bottom: 50px;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--primary-white-color);
+  z-index: 1;
+}

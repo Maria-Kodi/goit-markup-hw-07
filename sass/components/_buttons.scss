@@ -1,0 +1,45 @@
+.buttons-block {
+  display: flex;
+  justify-content: center;
+}
+.section-buttons {
+  display: block;
+  padding-bottom: 94px;
+  padding-top: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  & li:not(last child) {
+  margin-right: 9px;
+}
+&__type {
+  margin: 8px;
+  cursor: pointer;
+  background-color: #F5F4FA;
+  color: var(--second-main-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  border-style: none;
+  padding: 6px 22px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  
+  &:hover,
+  &:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  }
+}
+}
